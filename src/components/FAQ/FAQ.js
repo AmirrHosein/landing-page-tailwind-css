@@ -35,7 +35,7 @@ const FAQ = () => {
             </div>
             <button
               type="button"
-              className="mt-12 flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black"
+              className="mt-12 flex self-center btn btn-purple hover:bg-neutral-200 hover:text-black"
             >
               More Info
             </button>

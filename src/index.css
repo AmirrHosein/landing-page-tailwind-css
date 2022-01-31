@@ -13,5 +13,5 @@
 }
 
 .btn-white {
-  @apply bg-bookmark-white;
+  @apply bg-neutral-200;
 }

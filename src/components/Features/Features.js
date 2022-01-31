@@ -4,7 +4,7 @@ import image3 from "./illustration-features-tab-3.png";
 const Features = () => {
   return (
     <>
-      <section className="bg-bookmark-white py-20 mt-20 lg:mt-60">
+      <section className="bg-neutral-200 py-20 mt-20 lg:mt-60">
         {/* Heading */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 className="text-3xl text-center text-bookmark-blue">Features</h1>
@@ -36,7 +36,7 @@ const Features = () => {
               </p>
               <button
                 type="button"
-                className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                className="btn btn-purple hover:bg-neutral-200  hover:text-black"
               >
                 More Info
               </button>
@@ -64,11 +64,11 @@ const Features = () => {
               </p>
               <button
                 type="button"
-                className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                className="btn btn-purple hover:bg-neutral-200 hover:text-black"
               >
                 More Info
               </button>
-              <div className="hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36"></div>
+              <div className="hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/5 -bottom-24 -right-0"></div>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ const Features = () => {
               </p>
               <button
                 type="button"
-                className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                className="btn btn-purple hover:bg-neutral-200 hover:text-black"
               >
                 More Info
               </button>

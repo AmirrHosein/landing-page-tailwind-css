@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="flex justify-center flex-wrap gap-6">
               <button
                 type="button"
-                className="btn btn-purple hover:bg-bookmark-white hover:text-black "
+                className="btn btn-purple hover:bg-neutral-200 hover:text-black "
               >
                 Get it on Chrome
               </button>
@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"></div>
+        <div className="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/5 top-32 right-0 lg:-bottom-28 lg:-right-0"></div>
       </section>
     </>
   );

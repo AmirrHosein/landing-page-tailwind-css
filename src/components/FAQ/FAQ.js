@@ -1,4 +1,18 @@
+import { Accordin } from "./Accordin";
+
 const FAQ = () => {
+  const accordinData = [
+    { title: "What is a Bookmark?", content: "This is Bookmark" },
+    {
+      title: "How can I request a new browser?",
+      content: "request a new browser",
+    },
+    { title: "Is there a mobile app?", content: "This is mobile app" },
+    {
+      title: "What about other Chromium browsers?",
+      content: "This is Chromium browsers",
+    },
+  ];
   return (
     <>
       <section className="bg-bookmark-white py-20">
@@ -15,24 +29,9 @@ const FAQ = () => {
           </div>
           {/* FAQ Items  */}
           <div className="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
-            <div className="flex items-center border-b py-4">
-              <span className="flex-1">What is a Bookmark?</span>
-              <i className="text-bookmark-purple fas fa-chevron-down"></i>
-            </div>
-            <div className="flex items-center border-b py-4">
-              <span className="flex-1">How can I request a new browser?</span>
-              <i className="text-bookmark-purple fas fa-chevron-down"></i>
-            </div>
-            <div className="flex items-center border-b py-4">
-              <span className="flex-1">Is there a mobile app?</span>
-              <i className="text-bookmark-purple fas fa-chevron-down"></i>
-            </div>
-            <div className="flex items-center border-b py-4">
-              <span className="flex-1">
-                What about other Chromium browsers?
-              </span>
-              <i className="text-bookmark-purple fas fa-chevron-down"></i>
-            </div>
+            {accordinData.map(({ title, content }) => (
+              <Accordin title={title} content={content} />
+            ))}
             <button
               type="button"
               className="mt-12 flex self-center btn btn-purple hover:bg-neutral-200 hover:text-black"
